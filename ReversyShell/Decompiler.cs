@@ -201,7 +201,7 @@ namespace ReversyShell
 				ThrowOnAssemblyResolveErrors = false,
 				RemoveDeadCode = RemoveDeadCode,
 				RemoveDeadStores = RemoveDeadStores,
-				//UseNestedDirectoriesForNamespaces = true,
+				//UseNestedDirectoriesForNamespaces = false,
 				//UseRootFolderAtNestedDirectoriesForNamespaces = true,
 				UseSdkStyleProjectFormat = WholeProjectDecompiler.CanUseSdkStyleProjectFormat(module),
 
